@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  margin: 24px;
+}
+
+form {
+  display: flex;
+  gap: 80px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* rem? */
+button {
+  padding: 16px;
+  margin: 38px;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  display: flex;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+.categories-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.box-border {
+  border: solid 2px black;
+  max-width: 130px;
+  max-height: 130px;
+  padding: 5px;
+}

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEWKIN</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="Header">
+      <h1>LEWKIN</h1>
+      <h2>Add a new product</h2>
+    </div>
+
+    <form action="https://api.web3forms.com/submit" method="POST">
+      <input
+        type="hidden"
+        name="access_key"
+        value="15807662-c83c-4412-9ab5-f2804d2838db"
+      />
+      <input
+        type="hidden"
+        name="redirect"
+        value="https://web3forms.com/success"
+      />
+      <div class="left-column">
+        <h4>Categories :</h4>
+        <div class="categories-container">
+          <div class="box-border">
+            <label for="Categories :">Accessories</label>
+            <input type="radio" name="Categories" id="Categories :" />
+          </div>
+
+          <div class="box-border">
+            <label for="Categories :">Clothings</label>
+            <input type="radio" name="Categories" id="Categories :" />
+          </div>
+        </div>
+
+        <h4>Colors :</h4>
+        <label for="Colors">Red</label>
+        <input type="checkbox" name="Colors" id="Colors" />
+
+        <label for="Colors">Blue</label>
+        <input type="checkbox" name="Colors" id="Colors" />
+
+        <label for="Colors">Gray</label>
+        <input type="checkbox" name="Colors" id="Colors" />
+
+        <label for="Colors">White</label>
+        <input type="checkbox" name="Colors" id="Colors" />
+
+        <h4>Show price :</h4>
+        <label for="Show price :"></label>
+        <input id="Show price :" name="Show price :" type="text" />
+
+        <h4>NEW :</h4>
+        <label for="NEW :">Show</label>
+        <input type="radio" name="NEW :" id="NEW :" />
+
+        <label for="NEW :">Hide</label>
+        <input type="radio" name="NEW :" id="NEW :" />
+      </div>
+
+      <div class="center-column">
+        <h4>Specific name :</h4>
+        <label for="Specific name :"></label>
+        <input id="Specific name :" name="Specific name :" type="text" />
+
+        <h4>Sizes :</h4>
+        <label for="Sizes :">XS</label>
+        <input type="checkbox" name="Sizes :" id="Sizes :" />
+
+        <label for="Sizes :">S</label>
+        <input type="checkbox" name="Sizes :" id="Sizes :" />
+
+        <label for="Sizes :">M</label>
+        <input type="checkbox" name="Sizes :" id="Sizes :" />
+
+        <label for="Sizes :">L</label>
+        <input type="checkbox" name="Sizes :" id="Sizes :" />
+
+        <h4>Previous price :</h4>
+        <label for="Previous price :"></label>
+        <input id="Previous price :" name="Previous price :" type="text" />
+
+        <button type="submit">Publish</button>
+      </div>
+
+      <div class="right-column">
+        <h4>Add image :</h4>
+        <input type="file" name="Add image :" id="Add image :" />
+      </div>
+    </form>
+  </body>
+</html>
