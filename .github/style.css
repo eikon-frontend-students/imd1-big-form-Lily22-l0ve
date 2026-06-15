@@ -50,16 +50,3 @@ h4 {
   max-height: 130px;
   padding: 5px;
 }
-
-.NEW-container {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.box-border2 {
-  border: solid 2px black;
-  max-width: 130px;
-  max-height: 130px;
-  padding: 5px;
-}
